@@ -1,0 +1,43 @@
+    .navbar {
+        color: whitesmoke;
+        background-color: darksalmon;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 25px 0 black;
+        margin: 10px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .cart {
+        width: 80px;
+        height: 80px;
+        margin: 80px auto;
+        font-size: 1950px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navtext {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        margin: 20px;
+    }
+    
+    .cartcounter {
+        font-size: 50px;
+        background: #ff0000;
+        color: rgb(16, 143, 33);
+        padding: 0 5px;
+        vertical-align: top;
+        right: 10px;
+        left: 0px;
+        text-align: right;
+        margin: 40px;
+    }
