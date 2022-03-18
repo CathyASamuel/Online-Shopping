@@ -1,0 +1,16 @@
+import {BsCart } from 'react-icons/bs';
+import "../styles/navbar.css";
+
+
+
+export const Navbar =({counter}) => {
+    return(
+<div className="navbar">
+    <div className="navtext"><h1>WATCHES FOR SALE</h1></div>
+    
+    <div className="cart"><BsCart/></div>
+    <div className="cartcounter">{counter}</div>
+    <button>See Cart</button>
+</div>
+)
+}
